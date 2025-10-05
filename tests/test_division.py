@@ -1,4 +1,4 @@
-"""Tests for divide function in calculator.py"""
+"""Tests for divide function in calculator.py."""
 
 import pytest
 from app.calculator import divide
