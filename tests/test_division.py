@@ -1,15 +1,15 @@
-"""Unit tests for the divide function in calculator."""
+"""Tests for divide function in calculator.py"""
 
 import pytest
 from app.calculator import divide
 
-def test_division():
-    """Test normal division case."""
+def test_division_valid():
+    """Check normal division works."""
     assert divide(10, 2) == 5.0
-    assert divide(7, 2) == 3.5
+    assert divide(-9, 3) == -3.0
 
-def test_divide_zero_exception():
-    """Test that dividing by zero raises ZeroDivisionError."""
+def test_division_by_zero():
+    """Check division by zero raises ZeroDivisionError."""
     with pytest.raises(ZeroDivisionError):
         divide(5, 0)
 
