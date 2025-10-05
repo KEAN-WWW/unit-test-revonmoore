@@ -12,4 +12,3 @@ def test_division_by_zero():
     """Check division by zero raises ZeroDivisionError."""
     with pytest.raises(ZeroDivisionError):
         divide(5, 0)
-
