@@ -1,4 +1,4 @@
-"""Calculator Code Assignment"""
+"""Calculator module with arithmetic functions and a Calculator class."""
 
 def add(a: int, b: int) -> int:
     """Return the sum of a and b."""
